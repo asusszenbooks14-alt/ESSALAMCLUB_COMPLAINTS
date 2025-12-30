@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)file:///C:/Users/asuss/Desktop/football-complaints-platform/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Team Complaints Platform</title>
+    <link rel="stylesheet" href="./Football Team Complaints Platform_files/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Anonymous Complaints Platform</h1>
+            <p>Submit your concerns confidentially for a better team environment</p>
+        </header>
+
+        <main>
+            <form id="complaintForm">
+                <div class="form-group">
+                    <label for="complaintType">Complaint Type:</label>
+                    <select id="complaintType" required="">
+                        <option value="">Select a category</option>
+                        <option value="behavior">Player Behavior</option>
+                        <option value="coaching">Coaching Issues</option>
+                        <option value="facilities">Facilities</option>
+                        <option value="teamwork">Teamwork Problems</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="complaintText">Complaint Details:</label>
+                    <textarea id="complaintText" rows="6" placeholder="Please describe your complaint in detail. Your identity will remain anonymous." required=""></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="urgency">Urgency Level:</label>
+                    <select id="urgency" required="">
+                        <option value="">Select urgency</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                        <option value="critical">Critical</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Complaint Anonymously</button>
+            </form>
+
+            <div id="successMessage" class="success-message" style="display: none;">
+                <h3>Thank you for your submission!</h3>
+                <p>Your complaint has been submitted anonymously and will be reviewed by the appropriate team members.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Football Team Management. All rights reserved.</p>
+            <p>Your privacy is protected. No personal information is collected.</p>
+        </footer>
+    </div>
+
+    <script src="file:///C:/Users/asuss/Desktop/football-complaints-platform/script.js"></script>
+
+
+</body></html>
